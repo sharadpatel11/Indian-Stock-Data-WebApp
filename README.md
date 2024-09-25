@@ -43,7 +43,7 @@ Created a web application that shows indian stock data for NSE/BSE stock exchang
 Here's how:
 * Used python for web scaping and gathering stock info/data
 * Stored data in Supabase database
-* Used Express to retrive data from the database and send it to forntend via a server. Server running on https://indian-stock-market-data-server.vercel.app/
+* Used Express to retrieve data from the database and send it to forntend via a server. Server running on https://indian-stock-market-data-server.vercel.app/
 * Used React for frontend development
 * Used Vercel to deploy the server and the client
 
