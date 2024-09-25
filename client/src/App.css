@@ -1,0 +1,138 @@
+.app {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 24px;
+  background-color: #85c6eb;
+}
+
+.stock_market {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.market {
+  flex: 1.5;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  overflow: hidden;
+}
+
+.index_prices {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0px 10px;
+  margin: 0px 10px;
+}
+
+.stocks {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  overflow: hidden;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  flex-wrap: nowrap;
+  width: max-content;
+}
+
+.stock {
+  display: flex;
+  flex-direction: row;
+  animation: Swipe 350s linear infinite;
+}
+
+@keyframes Swipe {
+  to {
+    transform: translate(calc(-50% - 10px))
+  }
+}
+
+.index_ticker {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ticker {
+  min-width: 200px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.market_headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.market_header {
+  margin: 20px;
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+hr {
+  width: 100vw;
+  border: solid black 2px;
+}
+
+.dotted {
+  clear: both;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 850px) {
+  .market {
+    flex-direction: column;
+  }
+
+  .stocks {
+    flex-direction: column;
+  }
+
+  .market_headers {
+    align-items: center;
+  }
+
+  .market_header {
+    flex-direction: row;
+  }
+
+  .dotted {
+    width: 25vh;
+    border: solid black 2px;
+    visibility: visible;
+  }
+}
+
+@media screen and (max-width: 550px) {
+      .app {
+        font-size: 18px;
+      }
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .app {
+    font-size: 14px;
+  }
+}
