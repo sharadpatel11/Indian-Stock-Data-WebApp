@@ -12,6 +12,7 @@
   <p align="center">
     Get updated stock data for NSE/BSE stock exchanges
     <br />
+    <br />
     <a href="https://indian-stock-market-data.vercel.app/">View Demo</a>
   </p>
 </div>
