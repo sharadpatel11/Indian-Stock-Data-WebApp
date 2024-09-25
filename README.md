@@ -32,15 +32,10 @@
 </details>
 
 
-
-https://github.com/user-attachments/assets/5608969c-73d0-46e0-9fc3-e95df0cbc407
-
-
-
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://indian-stock-market-data.vercel.app/)
+[![Product Name Screen Shot][[https://github.com/user-attachments/assets/5608969c-73d0-46e0-9fc3-e95df0cbc407]](https://indian-stock-market-data.vercel.app/)
 
 Created a web application that shows indian stock data for NSE/BSE stock exchanges
 
