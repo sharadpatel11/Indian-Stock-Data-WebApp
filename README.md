@@ -72,6 +72,6 @@ Here's how:
 [Python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org/
 [Supabase]: https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white
-[Supabse-url]: https://supabase.com/
+[Supabase-url]: https://supabase.com/
 [Vercel]: https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white
 [Vercel-url]: https://vercel.com/
