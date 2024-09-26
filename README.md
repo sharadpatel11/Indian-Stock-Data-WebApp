@@ -38,7 +38,7 @@
 
 https://github.com/user-attachments/assets/5608969c-73d0-46e0-9fc3-e95df0cbc407
 
-Created a web application that shows indian stock data for NSE/BSE stock exchanges
+Created a web application that shows Indian stock data for NSE/BSE stock exchanges
 
 Here's how:
 * Used python for web scaping and gathering stock info/data
