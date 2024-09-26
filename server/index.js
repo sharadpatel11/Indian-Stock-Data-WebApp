@@ -12,11 +12,8 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 var database = require("@supabase/supabase-js");
-// const supabaseKey = process.env.supabaseKey;
-// const supabaseUrl = process.env.supabaseUrl;
-
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxucmdnc2RobXpraGhzaWd6bGptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY3MTA1ODUsImV4cCI6MjA0MjI4NjU4NX0.2GD5jwxgeiZw5JZXospBBUplVSPlP788GH5RGOWvWbg"
-const supabaseUrl = 'https://lnrggsdhmzkhhsigzljm.supabase.co'
+const supabaseKey = process.env.supabaseKey;
+const supabaseUrl = process.env.supabaseUrl;
 const supabase = database.createClient(supabaseUrl, supabaseKey);
 
 async function getData() {

@@ -4,8 +4,8 @@ from tickers import tickers
 import json
 from supabase import create_client, Client
 
-url: str = "https://lnrggsdhmzkhhsigzljm.supabase.co"
-key: str = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imxucmdnc2RobXpraGhzaWd6bGptIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MjY3MTA1ODUsImV4cCI6MjA0MjI4NjU4NX0.2GD5jwxgeiZw5JZXospBBUplVSPlP788GH5RGOWvWbg"
+url: str = "Supabase_Url"
+key: str = "Supabase_Key"
 supabase: Client = create_client(url, key)
 
 NSE_Tickers = tickers["NSE"]
